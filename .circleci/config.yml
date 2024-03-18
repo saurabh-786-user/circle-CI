@@ -13,7 +13,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - test : python test.py
+      - run : python test.py
 
 
 workflows:
